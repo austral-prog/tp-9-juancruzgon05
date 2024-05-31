@@ -20,7 +20,7 @@ def decrement_items(inventory, items):
 			inventory[i]-=1
 		else:
 			inventory[i]=0
-
+	return inventory
 def remove_item(inventory, item):
 	if item in inventory:
 		del inventory[item]
